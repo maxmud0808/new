@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bizning Mukammal Sayt</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Navigatsiya paneli -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#contact">ALOQA</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Asosiy Sahifa -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Bizning Saytga Xush Kelibsiz!</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque odit et ratione illo rerum consequatur esse eos ab, possimus provident?</p>
+            <button onclick="window.location.href='#contact'">choq 100$</button>
+        </div>
+    </section>
+
+    <!-- Hakkimizda Sahifasi -->
+    <section id="about" class="about-section">
+        <div class="about-text">
+            <h2>dunyo boylab.uz</h2>
+            <p>Bizning jamoa yuqori sifatli xizmatlarni taklif qiladi. Har bir mijozimizni e'tibor bilan tinglaymiz va ehtiyojlariga mos yechimlar taqdim etamiz.</p>
+        </div>
+        <div class="team-members">
+            <div class="team-member">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQlRYwS5A0rCCfblZi-Tt2sj8U7LzDZ1u6x1g&s" alt="Jamoa A'zosi 1">
+                <h3>ADRENALINE RUSH</h3>
+                <p>adrenalin</p>
+            </div>
+            <div class="team-member">
+                <img src="https://cdn.globaldialog.ru/_/manager/files/571/77216e7d18/img-academy-2.jpg" alt="Jamoa A'zosi 2">
+                <h3>UY JOY BIZNES</h3>
+                <p>Marketing Mutaxassisi</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Aloqa Sahifasi -->
+    <section id="contact" class="contact-section">
+        <h2>husiiiii000</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Ismingiz</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Xabar</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Yuborish</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>2024 Bizning Sayt. Barcha huquqlar himoyalangan.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
